@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv
+env/
+
+datasets/
+data/images/
+data/labels/
+
+# IDE
+.idea/
+.vscode/

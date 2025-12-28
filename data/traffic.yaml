@@ -1,0 +1,5 @@
+train: ./traffic_images/train/images
+val: ./traffic_images/val/images
+
+nc: 7
+names : ['40_sign', '80_sign', 'green', 'person', 'red', 'stop_sign', 'yellow']
