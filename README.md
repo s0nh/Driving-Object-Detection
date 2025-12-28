@@ -53,12 +53,7 @@
 <img src="assets/test_result.jpg" width="400">
 
 ## 모델 실행
-모델을 실행시키기 전, 아래의 명령어를 통해 필요한 라이브러리를 설치합니다.
-
+모델을 실행시키기 전, 아래의 명령어를된 카메라로 모델을 돌려볼 수 있습니다.
 ```
-pip install -r requirements.txt
-```
-폴더 내에서 아래와 같이 프롬프트를 작성하면 컴퓨터 카메라로 모델을 돌려볼 수 있습니다.
-```
-python detect.py --source 0 --weights best.pt
+python detect.py --source 0 --weights weights/best.pt
 ```
