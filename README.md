@@ -6,12 +6,15 @@
 ```   
 ├── models/             
 ├── utils/       
-├── assets/          (모델 관련 시각 자료 및 로그 파일)       
-├── detect.py        (실행 파일)    
+├── assets/             (모델 관련 시각 자료 및 로그 파일)       
+├── detect.py           (실행 파일)    
 ├── .gitignore
-├── requirements.txt (설치 라이브러리 목록)   
+├── requirements.txt    (설치 라이브러리 목록)   
 ├── weights/         
-│   └── best.pt      (학습 모델 산출본)
+│   └── best.pt         (학습 모델 산출본)
+├── configs/
+│   ├── custom_hyp.yaml (학습 파일 증강 파라미터)
+│   └── opt.yaml        (모델 학습 정보)
 ├── data/
 │   └── traffic.yaml (데이터 학습 경로 파일)     
 └── README.txt       
