@@ -64,5 +64,6 @@ pip install -r requirements.txt
 python detect.py --source 0 --weights weights/best.pt
 ```
 
-Acknowledgement This project is based on YOLOv5 by Ultralytics, licensed under AGPL-3.0.
+## Acknowledgement
+This project is based on [YOLOv5](https://github.com/ultralytics/yolov5) by Ultralytics, licensed under **AGPL-3.0**.
 
