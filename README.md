@@ -57,5 +57,7 @@ pip install -r requirements.txt
 ```
 폴더 내에서 아래와 같이 프롬프트를 작성하면 컴퓨터 카메라로 모델을 돌려볼 수 있습니다.
 ```
-python detect.py --source 0 --weights best.pt
+python detect.py --source 0 --weights weights/best.pt
 ```
+
+Acknowledgement This project is based on YOLOv5 by Ultralytics, licensed under AGPL-3.0.
