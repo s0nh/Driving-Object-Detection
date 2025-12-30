@@ -17,7 +17,7 @@
 │   └── opt.yaml        (모델 학습 정보)
 ├── data/
 │   └── traffic.yaml (데이터 학습 경로 파일)     
-└── README.txt       
+└── README.md       
 ```
 
 ## 프로젝트 개요
